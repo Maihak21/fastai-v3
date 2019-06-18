@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/9mp6cdmob6ei0xq/model.h5?dl=1'
-export_file_name = 'model.h5'
+export_file_url = 'https://www.dropbox.com/s/wyo66gcit1mxuqm/my-modemyhqacc70.pkl?dl=1'
+export_file_name = 'my-modemyhqacc70.pkl'
 
-classes = ['IDC negative',  'IDC positive']
+classes = ['normal',  'brain tumor']
 path = Path(__file__).parent
 
 app = Starlette()
